@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+nav {
+    font-family: 'Montserrat Semibold', sans-serif;
+}
+
+#title {}
+
+#slogan {}
+
+#buttons {}
+
+.bg {
+    background-image: url("../img/gradientbg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Montserrat Black', sans-serif;
+}

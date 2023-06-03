@@ -1,0 +1,39 @@
+#logo {
+    width: 60px;
+    margin: 10px 20px;
+}
+
+#links {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-right: 50px;
+    font-size: 18px;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.active {
+    color: #1D7CD1;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    height: 80px;
+    flex-direction: row;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
