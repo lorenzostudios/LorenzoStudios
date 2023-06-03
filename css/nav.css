@@ -27,7 +27,7 @@ nav {
     display: flex;
     height: 80px;
     flex-direction: row;
-    margin: 0;
+    margin: 10px 20px;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.8);

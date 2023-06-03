@@ -1,14 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.cdnfonts.com/css/anniversary?styles=85586');
 
 nav {
     font-family: 'Montserrat Semibold', sans-serif;
 }
 
-#title {}
+#title {
+    font-family: 'Anniversary', sans-serif;
+    font-size: 7.5vw;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 5px;
+}
 
-#slogan {}
+#slogan {
+    text-align: center;
+    font-size: 3vw;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat Semibold', sans-serif;
+}
 
-#buttons {}
+#buttons {
+    text-align: center;
+    font-family: 'Montserrat Semibold', sans-serif;
+}
 
 .bg {
     background-image: url("../img/gradientbg.png");
@@ -16,8 +32,4 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-h1 {
-    font-family: 'Montserrat Black', sans-serif;
 }
