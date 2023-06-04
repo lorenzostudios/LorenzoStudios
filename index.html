@@ -31,8 +31,8 @@
   <link rel="stylesheet" type="text/css" href="css/loaders/loader.css">
   <link rel="stylesheet" type="text/css" href="css/plugins.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="stylesheet" 
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="node_modules/lite-youtube-embed/src/lite-yt-embed.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <!-- Template Styles End -->
 
   <!-- Custom Browser Color Start -->
@@ -351,33 +351,37 @@
                   <!-- Works Gallery Single Item Start -->
                   <figure class="col-12 col-sm-6 my-gallery__item" itemprop="associatedMedia" itemscope
                     itemtype="http://schema.org/ImageObject">
-                    <iframe id="player" type="text/html" width="100%" height="100%"
-                      src="https://www.youtube.com/embed/vWEUjki8JpU?modestbranding=1&showinfo=0" frameborder="0"
-                      allowfullscreen></iframe>
+                    <lite-youtube videoid="vWEUjki8JpU"></lite-youtube>
+                    <!-- <iframe id="player" type="text/html" width="100%" height="100%" loading="lazy"
+                      src="https://www.youtube.com/embed/vWEUjki8JpU" frameborder="0"
+                      allowfullscreen></iframe> -->
                   </figure>
                   <!-- Works Gallery Single Item End -->
 
                   <!-- Works Gallery Single Item Start -->
                   <figure class="col-12 col-sm-6 my-gallery__item" itemprop="associatedMedia" itemscope
                     itemtype="http://schema.org/ImageObject">
-                    <iframe id="player" type="text/html" width="100%" height="100%"
-                      src="https://www.youtube.com/embed/nI6SuTpJhoc" frameborder="0" allowfullscreen></iframe>
+                    <lite-youtube videoid="nI6SuTpJhoc"></lite-youtube>
+                    <!-- <iframe id="player" type="text/html" width="100%" height="100%" loading="lazy"
+                      src="https://www.youtube.com/embed/nI6SuTpJhoc" frameborder="0" allowfullscreen></iframe> -->
                   </figure>
                   <!-- Works Gallery Single Item End -->
 
                   <!-- Works Gallery Single Item Start -->
                   <figure class="col-12 col-sm-6 my-gallery__item" itemprop="associatedMedia" itemscope
                     itemtype="http://schema.org/ImageObject">
-                    <iframe id="player" type="text/html" width="100%" height="100%"
-                      src="https://www.youtube.com/embed/2A3tLyQu_M8" frameborder="0" allowfullscreen></iframe>
+                    <lite-youtube videoid="2A3tLyQu_M8"></lite-youtube>
+                    <!-- <iframe id="player" type="text/html" width="100%" height="100%" loading="lazy"
+                      src="https://www.youtube.com/embed/2A3tLyQu_M8" frameborder="0" allowfullscreen></iframe> -->
                   </figure>
                   <!-- Works Gallery Single Item End -->
 
                   <!-- Works Gallery Single Item Start -->
                   <figure class="col-12 col-sm-6 my-gallery__item" itemprop="associatedMedia" itemscope
                     itemtype="http://schema.org/ImageObject">
-                    <iframe id="player" type="text/html" width="100%" height="100%"
-                      src="https://www.youtube.com/embed/7fUZ7QUhIIY" frameborder="0" allowfullscreen></iframe>
+                    <lite-youtube videoid="7fUZ7QUhIIY"></lite-youtube>
+                    <!-- <iframe id="player" type="text/html" width="100%" height="100%" loading="lazy"
+                      src="https://www.youtube.com/embed/7fUZ7QUhIIY" frameborder="0" allowfullscreen></iframe> -->
                   </figure>
                   <!-- Works Gallery Single Item End -->
 
@@ -554,6 +558,7 @@
   <!-- Load Scripts Start -->
   <script src="js/libs.min.js"></script>
   <script src="js/custom.js"></script>
+  <script src="node_modules/lite-youtube-embed/src/lite-yt-embed.js"></script>
   <!-- Load Scripts End -->
 
 </body>
