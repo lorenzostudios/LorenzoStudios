@@ -31,10 +31,10 @@
   background-color: #0c0c0c;
   opacity: 1;
   visibility: visible;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 .loader.loaded {
   opacity: 0;
@@ -103,9 +103,9 @@
   }
 }
 .scaleOut {
-  -webkit-animation: scaleOut 0.3s 1;
-     -moz-animation: scaleOut 0.3s 1;
-          animation: scaleOut 0.3s 1;
+  -webkit-animation: scaleOut 1s 1;
+     -moz-animation: scaleOut 1s 1;
+          animation: scaleOut 1s 1;
   -webkit-animation-fill-mode: both;
      -moz-animation-fill-mode: both;
           animation-fill-mode: both;
