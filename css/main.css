@@ -2850,7 +2850,7 @@ form input.margin-l, form textarea.margin-l {
 }
 @media only screen and (min-width: 768px) {
   .image-caption {
-    width: auto;
+    /*width: auto;*/
     text-align: left;
   }
 }
