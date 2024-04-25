@@ -2854,12 +2854,12 @@ form input.margin-l, form textarea.margin-l {
     text-align: left;
   }
 }
-@media only screen and (min-width: 1200px) {
+/*@media only screen and (min-width: 1200px) {
   .image-caption {
     left: 6rem;
     bottom: 11rem;
     padding: 0;
-    /*background-color: transparent;*/
+    background-color: transparent;
     -webkit-backdrop-filter: none;
             backdrop-filter: none;
     border: none;
@@ -2867,7 +2867,7 @@ form input.margin-l, form textarea.margin-l {
   .image-caption.opposite {
     background-color: transparent;
   }
-}
+} */
 @media only screen and (min-width: 1400px) {
   .image-caption {
     left: 8rem;
