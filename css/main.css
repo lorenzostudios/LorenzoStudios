@@ -2859,14 +2859,14 @@ form input.margin-l, form textarea.margin-l {
     left: 6rem;
     bottom: 11rem;
     padding: 0;
-    background-color: transparent;
+    /*background-color: transparent;*/
     -webkit-backdrop-filter: none;
             backdrop-filter: none;
     border: none;
   }
-  /*.image-caption.opposite {
+  .image-caption.opposite {
     background-color: transparent;
-  }*/
+  }
 }
 @media only screen and (min-width: 1400px) {
   .image-caption {
