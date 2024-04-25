@@ -2864,9 +2864,9 @@ form input.margin-l, form textarea.margin-l {
             backdrop-filter: none;
     border: none;
   }
-  .image-caption.opposite {
+  /*.image-caption.opposite {
     background-color: transparent;
-  }
+  }*/
 }
 @media only screen and (min-width: 1400px) {
   .image-caption {
